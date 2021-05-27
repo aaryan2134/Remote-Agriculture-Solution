@@ -135,6 +135,6 @@ int ultraFront() {
   duration = pulseIn(ECHO_PIN1, HIGH);
   
   // Convert the time into a distance
-  cm = (duration / 2) / 29.1;   // Divide by 29.1 
+  cm = (duration / 2) / 0.034;   // Multiply by 0.034 
   return cm;
 }
