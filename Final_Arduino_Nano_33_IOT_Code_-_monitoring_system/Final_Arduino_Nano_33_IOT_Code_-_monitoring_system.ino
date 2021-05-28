@@ -62,6 +62,20 @@ BlynkTimer timer;
 // In the app, Widget's reading frequency should be set to PUSH. This means
 // that you define how often to send data to Blynk App.
 
+  //for spraying pesticide when user calls it
+  int value;
+  BLYNK_WRITE(V2)
+  {
+    value = param.asInt();
+      if (value == 1)
+  {
+    digitalWrite(motorB1, HIGH);
+    digitalWrite(motorB2, LOW);
+    delay(30);
+    digitalWrite(motorB1, LOW);
+    digitalWrite(motorB2, LOW);
+  }
+  }
 void myTimerEvent()
 {
   //starting the DHT 11 sensor
@@ -113,20 +127,8 @@ if(moisture_value < 60)
     digitalWrite(motorA2,LOW); 
   } 
   
-  //for spraying pesticide when user calls it
-  int value;
-  BLYNK_WRITE(V2)
-  {
-    value = param.asInt();
-  }
-  if (value == 1)
-  {
-    digitalWrite(motorB1, HIGH);
-    digitalWrite(motorB2, LOW);
-    delay(30);
-    digitalWrite(motorB1, LOW);
-    digitalWrite(motorB2, LOW);
-  }
+
+
 }
 
 int water_level() {
