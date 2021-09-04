@@ -5,6 +5,8 @@
 
 [Project Video](https://www.element14.com/community/community/design-challenges/design-for-a-cause-2021/blog/2021/05/28/remote-agriculture-solution-09-time-to-see-the-work-in-action)
 
+[Featured Post](https://www.element14.com/community/docs/DOC-96784/l/meet-the-winners-of-design-for-a-cause-2021?ICID=design-aCause2021-topban#:~:text=We%20loved%20the%20listed,to%20receive%20their%20prizes.)
+
 # Introduction
 
 Agriculture has been increasingly getting expensive, time consuming and labour intensive. Through this project, I aim to help farmers manage their crops more easily and remotely. This will allow farmers to increase production by using automated means and in turn reduce expenses.
