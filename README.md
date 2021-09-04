@@ -13,6 +13,15 @@ Agriculture has been increasingly getting expensive, time consuming and labour i
 
 Agricultural expenses are increasing at a tremendous rate. So are the risks posed by farmers handling hazardous pesticides. By the use of IOT, we can allow farmers to regularly spray pesticides in the farms even in adverse weather and keep them safe from serious health hazards.
 
+## About Design For a Cause 2021
+The Challenge
+- 50 Challengers
+- 5 Blogs each
+- 1 Cause close to their hearts
+
+I wrote a set of 10 blogs detailing my journey while making this project. I tried my best to make it fun to read and as well as act as a tutorial/guidance for other creators. It was great to be selected in 50 challengers and to be guided by the team, especially Phil Hutchinson and Element14.
+It was to my great pleasure to be one of the top finishers of the challenge.
+
 ## Problems that this project aims to solve:
 
 - Automatic spraying of pesticides on plants according to the requirement.
@@ -38,19 +47,19 @@ The project comprises of three parts:
 
 ### Pest control system:
 
-I have planned to make a pesticide spraying mechanism buying/creating a peristaltic motor to pump the pesticide from the container and spray it onto the crops. This process will be initiated using Arduino Nano 33 IOT microcontroller. This will also alert the farmer about the level of pesticide in the container and send a notification when it falls below a prescribed level. This will be done using an ultrasonic sensor.
+I planned to make a pesticide spraying mechanism buying/creating a peristaltic motor to pump the pesticide from the container and spray it onto the crops. This process will be initiated using Arduino Nano 33 IOT microcontroller. This will also alert the farmer about the level of pesticide in the container and send a notification when it falls below a prescribed level. This will be done using an ultrasonic sensor.
 
  
 
 ### Irrigation system:
 
-I have planned to use a similar mechanism as described above for the irrigation system. Additionally, to make this process fully automatic, I will use a soil sensor to detect the moisture and temperature of the soil. Whenever, the humidity of the soil falls below a threshold, the water pump will start watering the crop.
+I planned to use a similar mechanism as described above for the irrigation system. Additionally, to make this process fully automatic, I will use a soil sensor to detect the moisture and temperature of the soil. Whenever, the humidity of the soil falls below a threshold, the water pump will start watering the crop.
 
  
 
 ### Monitoring system:
 
-Using the Arduino Nano 33 IOT, I will be able to send real time farm data to the farmer. So, I plan to send the data of the soil sensor, temperature sensor and humidity sensor (for the surrounding). Additionally, I will use an LDR to measure the luminescence of sunlight and share the same using IOT to the farmer. This will allow the farmer to keep track of the crops remotely and evaluate data over seasons to understand the effect of changes applied by the farmer in cropping pattern and their impact. This will allow the farmer to adopt strategies that will enable him/her to increase crop yield with minimum input requirements.
+Using the Arduino Nano 33 IOT, I was able to send real time farm data to the farmer. So, I planned to send the data of the soil sensor, temperature sensor and humidity sensor (for the surrounding). Additionally, I used an LDR to measure the luminescence of sunlight and share the same using IOT to the farmer. This would allow the farmer to keep track of the crops remotely and evaluate data over seasons to understand the effect of changes applied by the farmer in cropping pattern and their impact. This would allow the farmer to adopt strategies that will enable him/her to increase crop yield with minimum input requirements.
 
 
 <!-- ![image](https://user-images.githubusercontent.com/22559451/132092578-d763d195-4e97-4f02-aa57-2eafac8cb1f1.png) -->
